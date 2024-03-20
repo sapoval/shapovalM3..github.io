@@ -1,0 +1,241 @@
+body {
+    background-color: #2e2e2e;  
+}
+
+.header{ 
+  background-color: #494949;
+  border-color: #ddd;
+  height: 30%;
+  width: 80%;
+  margin: 0 auto;
+
+  
+}
+
+
+div {
+    margin: 10px;
+    font-size: 20px;
+}   
+a {
+  text-decoration: none;
+  color: #fff;
+}    
+    
+
+.b-n {
+  border:none;
+}
+
+.katalog {
+  display: inline-block;
+}
+
+.h_0 {
+  color: #ffffff;
+  background-color: #494949;
+  width: 30%;
+}
+
+
+
+#sidebar{
+border: none;
+    height: 100px;
+   width: 80%;
+    margin:0 auto;
+     
+}
+
+
+.main{
+
+    height: 100%;
+    margin:0 auto;
+    width: 80%;
+}
+#footer{ 
+    
+    width: 80%;
+    margin:0 auto;
+    height: 200px;
+}
+
+p {
+  color: #ffffff;
+}
+
+/* анимация пишущей машинки */
+.animationh1 {
+animation: cursor 1s infinite step-end, typing 10s infinite steps(20);
+white-space: nowrap;
+overflow: hidden;
+}
+
+@keyframes typing{
+  0%{ width: 0ch} /*Text is hidden*/
+  30%{ width: 20ch;} /*The enitre header will be typed out 1 character at a time*/
+  80%{ width: 20ch;} /*Text stays visible*/
+  90%{ width: 0ch;} /*Text is deleted*/
+  100%{ width: 0ch;} /*Text stays hidden*/
+  
+}
+
+/* Стилизация выпадающей кнопки */
+.dropbtn-1 {
+  background: #2ecc71;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.dropbtn-1:hover {
+  background: #27ae60;
+}
+.dropbtn-2 {
+  background: #34495e;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.dropbtn-2:hover {
+  background: #2c3e50;
+}
+
+/* Выпадающий контент (скрыт по умолчанию) */
+.dropdown-content-1 {
+  display: none;
+  position: absolute;
+  background: #27ae60;
+  min-width: 100%;
+ 
+}
+.dropdown-content-2 {
+  display: none;
+  position: absolute;
+  background: #34495e;
+  min-width: 100%;
+ 
+}
+
+/* Ссылки внутри выпадающего */
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Изменить цвет выпадающих ссылок при наведении */
+.dropdown-content-1 a:hover {
+  background: #2ecc71;
+}
+.dropdown-content-2 a:hover {
+  background: #2c3e50;
+}
+/* Показать выпадающее меню при наведении */
+.dropdown-1:hover .dropdown-content-1 {
+  display: block;
+}
+.dropdown-2:hover .dropdown-content-2 {
+  display: block;
+}
+
+
+
+
+
+/* Кнопки меню*/
+
+.btn {
+    border: none;
+    padding: 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+    width: 17%;
+    height: 60%;
+    color: #fff;
+
+    
+   
+  }
+
+  /* кнопка 1 */
+  .btn-1 {
+    background: #e74c3c;
+    color: #fff;
+  }
+  
+  .btn-1:hover {
+    background: #962a1e;
+  }
+  
+  .btn-1:active {
+    background: #962a1e;
+    top: 4px;
+  }
+
+ /* конопка 2 */
+ .btn-2 {
+  background: #2ecc71;
+  color: #fff;
+}
+
+.btn-2:hover {
+  background: #1f874a;
+}
+
+.btn-2:active {
+  background: #1f874a;
+  top: 4px;
+}
+  
+  /* кнопка 3 */
+  .btn-3 {
+    background: #3498db;
+    color: #fff;
+  }
+  
+  .btn-3:hover {
+    background: #1f618d;
+  }
+  
+  .btn-3:active {
+    background: #1f618d;
+    top: 4px;
+  }
+   
+  /* кнопка 4 */
+  .btn-4 {
+    background: #34495e;
+    color: #fff;
+  }
+  
+  .btn-4:hover {
+    background: #2c3e50;
+  }
+  
+  .btn-4:active {
+    background: #2c3e50;
+    top: 4px;
+  }
+
+  .btn-5 {
+    background: #919294;
+    color: #fff;
+  }
+  
+  .btn-5:hover {
+    background: #6d6d6e;
+  }
+  
+  .btn-5:active {
+    background: #6d6d6e;
+    top: 4px;
+  }
+  
+  
+  
+ 
